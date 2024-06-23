@@ -1,5 +1,5 @@
 import gsap from "gsap";
-function Para() {
+const Para = () => {
   gsap.to(".pContent", {
     yPercent: -100,
     ease: "none",

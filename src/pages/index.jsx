@@ -16,4 +16,6 @@ export {
   GsapScrollTrigger,
   GsapStagger,
   GsapText,
+  Para,
+  Scroll,
 };
