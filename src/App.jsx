@@ -8,11 +8,10 @@ import {
   GsapText,
   GsapTimeline,
   GsapTo,
-  Home,
+  Home, Scroll, Para
 } from "./pages";
 import gsap from "gsap";
-import Para from "./pages/Para";
-import Scroll from "./pages/Scroll";
+
 const App = () => {
 
   let tween = gsap.to('.box', { scrollTrigger: '.box', ease: 'elastic', rotate: 360, borderRadius: '100px', transition: true, x: 300, duration: 1 })
